@@ -70,14 +70,35 @@ color: #266371;
 
 .icons{
     display: flex;
+  
 }
 .icons i{
-    font-size: 25px;
+    font-size: 18px;
+
     color: #fff;
     margin-right: 15px;
     cursor: pointer;
+    display: block;
+   
+   
+   
 }
-.icons i:hover{
+
+
+.icons a{
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+  
+  
+
+}
+
+.icons a:hover{
     color: #266371;
 }
 #menu{
@@ -125,10 +146,13 @@ color: #266371;
     background-color: #099FA6;
     box-shadow: 0 0 20px rgb(0, 0, 0, 0.4);
     font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: none;
 
 }
 .btn-1:hover{
     background-color: #266371;
+    text-decoration: none;
+
 }
 .images{
     width: 800px;
